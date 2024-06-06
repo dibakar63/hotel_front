@@ -1,0 +1,12 @@
+.nav_link{
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+    cursor: pointer;
+  }
+  .nav_link:hover{
+    color: #FEA116;
+  }
+  .menuItem:hover{
+    background: rgb(199, 185, 185);
+  }

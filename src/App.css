@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  
+}
+*{
+  overflow-x: hidden;
 }
 
 .App-logo {
@@ -27,6 +31,18 @@
 .App-link {
   color: #61dafb;
 }
+.carousel-caption {
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+.bg-image {
+  background-image: url('.././src//assets/img/carousel-1.jpg');
+}
+.hamburger{
+  display: none;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -34,5 +50,19 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+@media   (max-width:1028px) {
+  .nav-link2{
+    display: none;
+  }
+  .social{
+    display: none;
+  }
+  .hamburger{
+    display: flex;
+  }
+  .book{
+    display: none;
   }
 }
